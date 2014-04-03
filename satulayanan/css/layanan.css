@@ -1,0 +1,27 @@
+#divBreadcrumb{
+	margin-top: 25px;
+}
+
+#layananList{
+	margin-top: 35px;
+	top: 53px;
+}
+
+#layananList.affix{
+	margin-top: 0;
+}
+
+#layananMain{
+	padding: 15px;
+}
+
+#layananComment{
+	margin-top: 15px;
+	border: solid 1px #eee;
+	border-radius: 4px;
+	padding: 15px;
+}
+
+#layananMasukan{
+	margin-top: 15px;
+}

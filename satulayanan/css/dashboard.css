@@ -1,0 +1,29 @@
+#topBar{
+	background-color: #444;
+	position:fixed;
+	z-index:999;
+	width:100%;
+	margin: 0 !important;
+}
+
+#sidebar{
+	background-color: #e7e7e7;
+	position: fixed;
+	top:50px;
+	bottom: 0;
+	left: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: block;
+	padding:20px;
+}
+
+#sidebar ul{
+	margin: 0 -21px 20px -21px;
+}
+
+.konten{
+	display: none;
+	top:50px;
+	padding: 0 40px;
+}
