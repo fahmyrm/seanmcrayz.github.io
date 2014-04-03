@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Satu Layanan</title>
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <?php  
       $baseUrl = Yii::app()->baseUrl; 
       $cs = Yii::app()->getClientScript();
       $cs->registerCssFile($baseUrl.'/css/bootstrap.css');
       $cs->registerCssFile($baseUrl.'/css/main.css');
+      $cs->registerScriptFile("http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js");
       $cs->registerScriptFile($baseUrl.'/js/bootstrap.js');
+      $cs->registerScriptFile($baseUrl.'/js/header.js');
     ?>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
