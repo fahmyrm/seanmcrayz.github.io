@@ -3,7 +3,7 @@
 	margin-bottom: 15px;
 }
 
-.menuPenyelenggara{
+.menuKolom{
 	height: 400px;
 	margin: 15px 0 0 0;
 	overflow-y: auto;
@@ -11,7 +11,7 @@
 	direction: rtl;
 }
 
-.menuPenyelenggara ul{
+.menuKolom ul{
 	direction: ltr;
 }
 
